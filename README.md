@@ -13,5 +13,5 @@
 нього файли попередньої роботи. Виконай розмітку і оформлення макета сторінки
 <a href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296708-626&mode=design&t=XpJ2m09tUuJVEhN3-0">домашнього
 завдання #2</a>. Для оптимізації зображень використовуй сервіс
-<a href="https://squoosh.app/">squoosh/a>. Налаштуй GitHub Pages і додай
+<a href="https://squoosh.app/">squoosh</a>. Налаштуй GitHub Pages і додай
 посилання на живу сторінку в шапку GitHub-репозиторія.
