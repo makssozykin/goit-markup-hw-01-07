@@ -157,6 +157,32 @@ body {
 
 /**
   |============================
+  | Section Portfolio
+  |============================
+*/
+.btn-list {
+}
+.btn-item {
+}
+.nav-btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
+  cursor: pointer;
+}
+.nav-btn:hover,
+.nav-btn:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+
+/**
+  |============================
   | Footer
   |============================
 */
