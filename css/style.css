@@ -1,0 +1,82 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+
+  /* Header background, team card background */
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
+
+/* Reset  */
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+.header {
+}
+.nav {
+}
+.logo-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+.logo-dark {
+  color: var(--color-navy-blue);
+}
+.nav-list {
+}
+.nav-item {
+  font-weight: 500;
+  color: var(--color-navy-blue);
+}
+.nav-link {
+}
+.address-list {
+}
+.address-item {
+  font-style: normal;
+}
+.address-link {
+  color: var(--color-slate);
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.logo-light {
+  color: var(--color-cloud);
+}
