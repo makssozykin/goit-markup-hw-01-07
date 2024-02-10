@@ -42,6 +42,20 @@ body {
   outline: 1px solid tomato;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Reset  */
 
 .list {
@@ -101,11 +115,11 @@ p {
   gap: 40px;
 }
 .nav-item {
+  font-weight: 500;
 }
 .nav-link {
   display: block;
   padding: 24px 0;
-  font-weight: 500;
   color: var(--color-navy-blue);
 }
 .nav-link:hover,
@@ -117,11 +131,11 @@ p {
   gap: 40px;
 }
 .address-item {
+  font-style: normal;
 }
 .address-link {
   display: block;
   padding: 24px 0;
-  font-style: normal;
   color: var(--color-slate);
 }
 .address-link:hover,
