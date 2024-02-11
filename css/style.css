@@ -171,7 +171,6 @@ img {
 
 .order-cont .primary-title {
   width: 496px;
-  outline: 1px dashed teal;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -296,25 +295,57 @@ img {
   | Section Portfolio
   |============================
 */
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .btn-list {
+  display: flex;
+  gap: var(--column-indent);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 72px;
 }
 .btn-item {
 }
 .nav-btn {
+  display: block;
+  padding: 12px 24px;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--color-iris);
   background-color: var(--color-cloud);
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 .nav-btn:hover,
 .nav-btn:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--column-indent);
 }
 .portfolio-item {
+  --items: 3;
+  width: calc(
+    (100% - (var(--items) - 1) * var(--column-indent)) / var(--items)
+  );
+}
+.portfolio-desc {
+  padding: 32px 16px;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-top: none;
+}
+.portfolio-desc .item-title {
+  margin-bottom: 8px;
+  letter-spacing: 0.4px;
 }
 
 /**
