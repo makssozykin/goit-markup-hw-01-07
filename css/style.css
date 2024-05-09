@@ -42,7 +42,7 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 1158px;
+  max-width: 1158px;
   outline: 1px solid tomato;
 }
 .section {
@@ -99,7 +99,15 @@ img {
   |============================
 */
 .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
   border-bottom: 1px solid #e7e9fc;
+  background-color: var(--color-white);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -164,18 +172,31 @@ img {
   |============================
 */
 .order {
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: var(--color-navy-blue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/order/people-office-squoosh.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
   padding-top: 188px;
   padding-bottom: 188px;
 }
 
-.order-cont .primary-title {
-  width: 496px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 48px;
-}
+/* .order-cont {
+  max-width: 1158px;
+} */
+
 .primary-title {
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -183,6 +204,8 @@ img {
 }
 .order-btn {
   display: block;
+  min-width: 169px;
+  height: 56px;
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
